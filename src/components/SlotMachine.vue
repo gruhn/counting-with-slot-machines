@@ -45,8 +45,8 @@ const digits = computed(() => {
 
     <button @click="inc">+</button>
   </div>
-  value   = {{ value }};
-  symbols = {{ symbols.map(String).join(", ") }}
+  symbols = {{ symbols.map(String).join(", ") }}<br/>
+  value   = {{ value }}
 </template>
 
 <style scoped>
@@ -124,7 +124,7 @@ const digits = computed(() => {
 
 .roll-enter-active,
 .roll-leave-active {
-  transition: all .1s linear;
+  transition: all .15s linear;
 }
 .roll-enter-from {
   transform: translateY(-150%) !important;
