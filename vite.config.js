@@ -5,6 +5,8 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/counting-with-slot-machines/",
+
   plugins: [vue()],
   resolve: {
     alias: {
