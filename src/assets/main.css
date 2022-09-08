@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: 'Cambria Math', Georgia, serif;
+  font-size: 18px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  margin: 1.5rem 0;
+}
+
+.github-link {
+  font-size: .8em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.github-link img {
+  height: 1em;
+  margin-right: 5px;
+}
+
+#app {
+  max-width: 800px;
+  margin: 1rem auto;
+  padding: 20px;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  color: #613511;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
